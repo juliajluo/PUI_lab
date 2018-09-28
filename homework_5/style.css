@@ -1,0 +1,61 @@
+
+body {
+	font-family: 'Arimo', san-serif;
+	margin: 0;
+}
+
+.navigation {
+	background-color: white;
+	padding: 15px;
+}
+
+.hero {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.main-text {
+	position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+.navigation {
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+}
+
+.navigation a {
+	color: black;
+}
+
+.left-navigation {
+	display: inline;
+	margin-right: 40px;
+}
+
+.right-navigation {
+	display: inline;
+	float: right;
+}
+
+#title {
+	display: inline;
+	font-size: 1.25rem;
+	text-transform: none;
+	letter-spacing: 0.0rem;
+	font-family: 'Playfair Display', serif;
+	padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+
+}
