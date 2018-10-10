@@ -52,3 +52,21 @@ function generateRandomAnimal() {
 	}
 
 }
+
+
+// $(document).ready(function() {
+// 	var animal = generateRandomAnimal();
+// 	  // fill in code
+// 	$("#animal-properties").text(animal.name + " " + animal.age + "years old");
+// 	$("#animal-img").attr("src", animal.image);
+// });
+
+$(document).ready(function() {
+
+	// generate a random animal when the document opens
+	var animal = generateRandomAnimal();
+	// update the page based on the animal properties
+	$("#animal-properties").text(animal.name + "  " + animal.age + "years old");
+	$("#animal-img").attr("src", animal.image);
+
+});
