@@ -62,6 +62,14 @@ function generateRandomAnimal() {
 // });
 
 $(document).ready(function() {
+	$("#button-save").click(function() {
+		// var animal = JSON.parse(localStorage.getItem("myAnimal"));
+
+		
+		localStorage.setItem("savedAnimal", JSON.stringify(animal));
+	})
+
+
 
 	// generate a random animal when the document opens
 	var animal = generateRandomAnimal();
@@ -70,3 +78,6 @@ $(document).ready(function() {
 	$("#animal-img").attr("src", animal.image);
 
 });
+
+
+
