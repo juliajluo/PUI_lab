@@ -1,0 +1,262 @@
+
+body {
+	font-family: 'Arimo', san-serif;
+	margin: 0;
+}
+
+a {
+	color: black;
+}
+
+.navigation {
+	background-color: white;
+	padding: 26px;
+	z-index: 98;
+}
+
+.hero {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.main-text {
+	position: absolute;
+    z-index: 90;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: 100vh;
+  	width: 100vw;
+  	margin: auto;
+  	padding-top: 35%;
+}
+
+.main-text {
+	color: white;
+}
+
+/*.text {
+	position: absolute;
+ 	text-align: center;
+
+}*/
+
+.main {
+	margin: auto;
+}
+
+h1 {
+	color: white;
+	font-family: "Playfair Display";
+	font-style: italic;
+	font-size: 5rem;
+}
+
+h3 {
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	font-weight: regular;
+}
+.navigation {
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	z-index: 99;
+}
+
+.navigation a {
+	color: black;
+	z-index: 100;
+}
+
+.left-navigation {
+	display: inline;
+	
+}
+
+.left-navigation a {
+	padding-right: 30px;
+}
+
+.right-navigation {
+	display: inline;
+	/*margin-right: 0;*/
+	float: right;
+	padding-top: 10px;
+	/*padding-right: 30px;*/
+}
+
+.right-navigation a {
+	padding-right: 30px;
+}
+
+#title {
+	display: inline;
+	font-size: 1.25rem;
+	text-transform: none;
+	letter-spacing: 0.0rem;
+	font-family: 'Playfair Display', serif;
+	padding-right: 10px;
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+.button {
+	background-color: white;
+	color: black;
+	display: inline-block;
+	width: 180px;
+	padding: 10px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.button a {
+	color: black;
+}
+
+.outline {
+	border: 0.8px solid black;
+	font-weight: regular;
+	font-size: 0.75rem;
+	padding: 20px;
+}
+
+.black {
+	background-color: black;
+	color: white;
+	font-weight: 400;
+	font-size: 0.75rem;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.hero-short {
+	width: 100%;
+	margin: 0;
+}	
+
+.hero-short img {
+	width: 100%;
+}
+
+.container {
+	padding-left: 20px;
+}
+
+.breadcrumbs {
+	padding-left: 10px;
+	padding-top: 20px;
+
+}
+
+.breadcrumbs h3 {
+	font-size: .75rem;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+.column {
+	display: block;
+}
+
+
+.column img {
+	display: block;
+	width: 96%;
+	padding: 10px;
+	/*margin: 20px;*/
+}
+
+.items p {
+	text-align: center;
+}
+
+.items a {
+	color: black;
+}
+
+.filter {
+	margin: 10px;
+	padding-top: 30px;
+}
+
+.side-nav {
+	padding-left: 10%;
+}
+
+.side-nav ul {
+	padding: 0;
+}
+
+.side-nav li {
+	list-style-type: none;
+	padding-top: 15px;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+
+
+.left {
+	display: inline-block;
+}
+
+.right {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+}
+
+.small{
+	padding: 30px;
+}
+
+.is-30 {
+	width: 32%;
+}
+
+.is-75 {
+	width: 74%;
+}
+
+.is-25 {
+	width: 24%;
+}
+
+.is-50 {
+	width: 48%;
+}
+
+.item-description {
+	padding: 20px;
+}
+
+.item-description p {
+	width: 80%;
+}
