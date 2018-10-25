@@ -27,7 +27,7 @@
             </div>
             <div class = "right-navigation">
                 <a href = "">Search</a>
-                <a href = "">Cart</a>
+                <a href = "cart.html">Cart  <div class = "cart-num"></div></a>
             </div>
         </div>
 
@@ -36,10 +36,12 @@
     <div class = "container">
 
         <div class = "columns">
-            <div class = "column is-50"><div class = "breadcrumbs"><h3><a href = "browse.html">Browse</a> >  Bestsellers > The Original</h3></div></p></div>
-            <div class = "column is-50"></div>
-            <div class = "column is-50"><img id = "bun-image" src ="">
+            <div class = "column is-50">
+                <div class = "breadcrumbs"><h3><a href = "browse.html">Browse</a> >  Bestsellers > The Original</h3>
+                </div></p>
             </div>
+            <div class = "column is-50"></div>
+            <div class = "column is-50"><img id = "bun-image" src =""></div>
             <div class = "column is-50">
                 <div class = "item-description">
                     <h2 id = "bun-name"><!-- The Original --></h2>
@@ -47,22 +49,55 @@
 
                     <p id = "bun-description"><br />The original bunbun special cinnamon roll. It is made with a long standing home made recipe and that has been passed down the Bun family for years.<br /><br />
 
-                    <div class = "button outline">Quantity ></div>  
-                    <div class = "button outline">Glazing ></div>
-
-                    <br /><br />
-                    <div id = "button-cart" class = "button black"><a href = "cart.html">Add to Cart</div>
-
+                    <form>
+                        <!-- <label for="country">Quantity</label> -->
+                        <select id="quantity" name="Quantity">
+                          <option value="australia">Quantity: 1</option>
+                          <option value="canada">Quantity: 2</option>
+                          <option value="usa">Quantity: Dozen</option>
+                        </select>
+                        <select id="glazing" name="glazing">
+                          <option value="australia">Frosted</option>
+                          <option value="canada">No Glaze</option>
+                          <option value="usa">Chocolate</option>
+                        </select>
+                        <br /><input id ="add" type = "submit" value = "Add to Cart">
+                    </form>
                 </div>
+            </div>
 
+        </div>
 
-                </p>
+        <div class = "similar-products">
+            <div class = "columns">
+                <div class = "column is-15"><img id ="carousel-button" src = "images/prev.png">
+                </div>
+                <div class = "column is-75">
+                    <ul id = "carousel">
+                        <li id = "carousel-element">
+                            <img src = "images/roll.png">
+                            <p>
+                            <a href = "item.html">The Raspberry </a>
+                            </p>
 
+                        </li>
+                        <li id = "carousel-element">
+                            <img src = "images/roll.png">
+                            <p><a href = "item.html">The Raspberry </a></p>
 
+                        </li>
+                        <li id = "carousel-element">
+                            <img src = "images/roll.png">
+                            <p><a href = "item.html">The Raspberry </a></p>
 
-
+                        </li>
+                    </ul>
+                </div>
+                <div class = "column is-15"><img id ="carousel-button" src = "images/next.png"> 
+                </div>
             </div>
         </div>
+    
 
     </div>
 

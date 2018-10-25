@@ -260,7 +260,13 @@ a {
 	width: 100%;
 }
 
+.is-15 {
+	width: 13%;
+}
 
+.is-15 {
+	width: 13%;
+}
 
 .item-description {
 	padding: 20px;
@@ -297,4 +303,72 @@ a {
 .checkout-box {
 	background-color: #F7F0F0;
 	padding: 10px;
+}
+
+#button-cart a {
+	color: white;
+}
+
+input[type=text], select {
+    width: 40%%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 0px;
+    box-sizing: border-box;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    width: 280px;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase
+    text-align: center;
+
+}
+
+.cart-num {
+	border-radius: 16px;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	display: inline-block;
+	width: 14px;
+    text-align: center;
+    padding: 2px;
+}
+
+#carousel li {
+	list-style: none;
+	display: inline-block;
+	widht: 30%;
+
+}
+
+#carousel li p {
+	text-align: center;
+}
+
+#carousel-button {
+	width: 80px;
+	margin: auto;
+}
+
+
+.checkout-box p {
+	line-height: 32px;
+	font-size: 19px;
+	padding: 20px;
+
 }
