@@ -85,23 +85,24 @@ $(document).ready(function() {
   // });
 
 // when you click the button , add the item to the cart array ?
-  // localStorage.setItem("mycarousel", JSON.stringify(carousel));
+  localStorage.setItem("mycarousel", JSON.stringify(carousel));
 
-  // $("#button-next").click(function() {
-  //   var list = $("#carousel");
-  //   //remove a list item FIGURE OUT how to remove
-  //   $(this).parent().remove();
-  //   //append the a new list item
-  //   list.append("<li><a href = "+ carousel[n+1].image + "</li>");
+  $("#button-next").click(function() {
+    var list = $("#carousel");
+    //remove a list item 
+    list.parentNode.removeChild(list);
+    //append the a new list item
+    list.append("<li><a href = "+ carousel[n+1].image + "</li>");
 
-  // });
+  });
 
-  // $("#button-prev").click(function() {
-  //   var list = $("#carousel");
-  //   //remove a list item FIGURE OUT how to remove
-  //   $(this).parent().remove();      //append the a new list item
-  //   list.append("<li><a href = "+ carousel[n-1].image + "</li>");
-  // });
+  $("#button-prev").click(function() {
+    var list = $("#carousel");
+    //remove a list item from the front of a list
+    list.parentNode.removeChild(list); //needs to remove from beginning of list
+    // needs to add at the beginning of list
+    list.append("<li><a href = "+ carousel[n-1].image + "</li>");
+  });
 
  
 });
