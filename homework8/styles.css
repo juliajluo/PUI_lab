@@ -18,7 +18,7 @@ body a {
 }
 
 
-/*navigation*/
+/*  ******* NAVIGATION ****   */
 
 #navigation a {
   text-decoration: none;
@@ -119,5 +119,17 @@ i.fa.fa-bars.toggle {
   }
 }
 
+/***** FOOTER ******/
+
+#footer {
+	background-color: #F2F3F4;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.footer-text {
+	text-align: center;
+	padding: 60px;
+}
 
 
