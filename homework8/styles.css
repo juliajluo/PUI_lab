@@ -147,6 +147,7 @@ i.fa.fa-bars.toggle {
 	width: 91%;
 	margin: auto;
 	display: flex;
+	padding-bottom: 300px;
 }
 
 .intro-text {
@@ -175,5 +176,20 @@ i.fa.fa-bars.toggle {
 
 .pink {
 	color: #FF4D4D;
+}
+
+.intro-side a {
+	color: #D4D7D9;
+	font-size: 1.2rem;
+	padding: 10px;
+	/*padding-top: 20px;*/
+}
+
+.side {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	text-align: right;
+	float: right;
+	/*color: ;*/
 }
 

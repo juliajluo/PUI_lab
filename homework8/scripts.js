@@ -1,11 +1,5 @@
  $(document).ready(function(){                    
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > 500) {
-                $('#navigation').fadeIn(500);
-            } else {
-                $('#navigation').fadeOut(500);
-            }
-        });
+
 
         $('#nav-toggle').click(function(){
 		    $('#nav-toggle').toggleClass('is-active');
