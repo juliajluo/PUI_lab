@@ -14,7 +14,7 @@ body a {
 #container {
 	/*padding: 20px;*/
 	/*width: 90%;*/
-	/*margin: auto;*/
+	margin: auto;
 }
 
 /* ******* HEADERS **** */
@@ -273,6 +273,141 @@ i.fa.fa-bars.toggle {
   }
 }
 
+/*****COLUMNS******/
+
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2em;
+	width: 93%;
+	margin:auto;
+}
+
+.is-one-third {
+	width: 30%;
+}
+
+.is-two-thirds {
+	width: 64%;
+}
+
+.is-one-fourth {
+	width: 24%;
+}
+
+.is-three-fourths {
+	width: 73%;
+}
+
+.is-half {
+	width: 45%;
+	padding: 15px;
+}
+
+.is-full {
+	width: 96%;
+	margin: auto;
+}
+
+.is-centered {
+	margin: auto;
+	display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  .columns {
+    /*width: 85%;*/
+  }
+
+  .is-one-third {
+    width: 100%;
+    /*margin-left: 0;*/
+    margin: auto;
+
+  }
+
+  .is-half {
+    width: 100%;
+  }
+
+  .is-one-fourth {
+    width: 100%;
+  }
+
+  .is-three-fourths {
+    width: 100%;
+  }
+
+  .is-two-thirds {
+    width: 100%;
+    margin: auto;
+  }
+
+  .respond-half {
+    width: 48%;
+  }
+
+  img.shrink { 
+    width: 50%;
+  }
+/*
+  .description {
+    padding-top: 3rem;
+  }*/
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .columns {
+    display: block;
+    padding-top: 2em;
+    width: 85%;
+    margin: auto;
+  }
+
+  #about .column p{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .column {
+    font-size: 0.8em;
+    line-height: 1.4rem;
+  }
+
+  .column p {
+    width: 100%;
+  }
+
+  #about {
+    width: 90% !important;
+    margin: auto !important;
+    text-align: center;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+}
+
+.center {
+  text-align: center;
+}
+
+.center-col {
+  margin: auto;
+  /*text-align: center;*/
+}
+
+
+.marginless {
+	margin: 0;
+}
 
 
 
