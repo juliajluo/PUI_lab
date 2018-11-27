@@ -25,6 +25,29 @@ h1 {
 	font-size: 2.8rem;
 }
 
+h3 {
+	font-weight: 300;
+	color: black;
+	font-size: 1.45rem;
+	letter-spacing: 0.05em;
+}
+
+h4 {
+	font-weight: 300;
+	color: black;
+	font-size: 1.2rem;
+	letter-spacing: 0.05em;
+	color: #FF4D4D;
+}
+
+h5 {
+	font-weight: 600;
+	color: black;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
 
 /*  ******* NAVIGATION ****   */
 
@@ -407,6 +430,17 @@ i.fa.fa-bars.toggle {
 
 .marginless {
 	margin: 0;
+}
+
+.main-content {
+	margin-top: 150px;
+}
+
+.columns p {
+	color: ##3F4144;
+	line-height: 2.3em;
+	font-size: 0.95rem;
+	letter-spacing: 0.02rem;
 }
 
 
