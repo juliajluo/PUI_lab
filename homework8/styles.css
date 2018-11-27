@@ -133,25 +133,28 @@ i.fa.fa-bars.toggle {
 	background-color: #F2F3F4;
 	text-align: center;
 	padding-top: 30px;
+	margin-top: 200px;
 }
 
 .footer-text {
 	text-align: center;
 	padding: 60px;
+
 }
 
 /***** INTRO ******/
 
 #intro {
 	padding-top: 200px;
-	width: 91%;
+	width: 93%;
 	margin: auto;
 	display: flex;
-	padding-bottom: 300px;
+	padding-bottom: 170px;
 }
 
 .intro-text {
 	width: 60%;
+	font-size: 1.8rem;
 
 }
 
@@ -164,6 +167,7 @@ i.fa.fa-bars.toggle {
 .intro-side {
 	width: 40%;
 	text-align: right;
+	margin-top: 5.6rem;
 }
 
 .light-grey {
@@ -179,7 +183,7 @@ i.fa.fa-bars.toggle {
 }
 
 .intro-side a {
-	color: #D4D7D9;
+	color: #B5BBBF;
 	font-size: 1.2rem;
 	padding: 10px;
 	/*padding-top: 20px;*/
@@ -191,5 +195,84 @@ i.fa.fa-bars.toggle {
 	text-align: right;
 	float: right;
 	/*color: ;*/
+	font-size: 0.83rem;
+	padding-right: 8px;
+	letter-spacing: 0.06rem;
 }
+
+
+/**** GRID *****/
+
+.grid {
+  margin: auto;
+  padding-top: 2rem;
+  width: 95%;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.card img {
+  display: block;
+}
+
+.responsive-img {
+  max-width: 100%;
+}
+
+.fade-container:hover .overlay{
+  opacity:1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  #404040;
+
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fade-container {
+  position:relative;
+}
+
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card {
+    width: calc(50% - 2rem);
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .card {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+
+
 
