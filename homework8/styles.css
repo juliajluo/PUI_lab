@@ -22,7 +22,8 @@ body a {
 	/*padding: 20px;*/
 	/*width: 90%;*/
 	margin: auto;
-	display: none;
+	/*display: none;*/
+	/*opacity: 0;*/
 
 }
 
@@ -63,6 +64,7 @@ h5 {
 #navigation a {
   text-decoration: none;
   padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .left-nav {
@@ -184,14 +186,14 @@ i.fa.fa-bars.toggle {
 	padding-bottom: 170px;
 }
 
-.intro-text {
+#intro-text {
 	width: 60%;
 	font-size: 1.8rem;
 
 }
 
-.intro-text span {
-	font-size: 1.8rem;
+#intro-text span {
+	/*font-size: 1.8rem;*/
 	letter-spacing: 0.02rem;
 	line-height: 1.7em;
 }
@@ -232,10 +234,71 @@ i.fa.fa-bars.toggle {
 	letter-spacing: 0.06rem;
 }
 
+@media screen and (max-width: 1200px) {
+  #intro-text {
+    font-size: 1.6rem;
+    width: 70%;
+  }
+  .light-grey {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+  	font-size: 2.4rem;
+  }
+
+}
+
+@media screen and (max-width: 880px) {
+  #intro-text {
+    font-size: 1.4rem;
+    /*width: 70%;*/
+  }
+  .light-grey {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+  	font-size: 2.1rem;
+  }
+
+  #intro {
+	padding-top: 140px !important;
+  }
+
+  .intro-side {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  #intro-text {
+    font-size: 1rem;
+    width: 97% !important;
+    margin: auto;
+  }
+  .light-grey {
+    font-size: 1rem;
+  }
+
+  h1 {
+  	font-size: 1.3rem;
+  }
+
+  #intro {
+	padding-top: 130px !important;
+  }
+
+
+}
+
+
+
 
 /**** GRID *****/
 
-.grid {
+#work {
   margin: auto;
   padding-top: 2rem;
   width: 95%;
@@ -288,7 +351,7 @@ i.fa.fa-bars.toggle {
 
 
 @media screen and (min-width: 600px) {
-  .grid {
+  #work {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -346,7 +409,20 @@ i.fa.fa-bars.toggle {
 	display: block;
 }
 
+.abt {
+  width: 98% !important;
+  text-align: left;
+    /*width: 75%;*/
+  color: #464646;
+  /*font-size: 1.15em;*/
+  line-height: 1.9em;
+    /*display: flex;*/
+} 
 
+/*.abt p {
+	padding-top: 200px;
+}
+*/
 @media screen and (max-width: 768px) {
   .columns {
     /*width: 85%;*/
@@ -462,7 +538,7 @@ i.fa.fa-bars.toggle {
   	background-color: white;
   	display: block;
   	z-index: 100;
-  	padding-top: 180px;
+  	padding-top: 280px;
   	overflow-x:hidden;
   	/*margin*/
 }

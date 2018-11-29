@@ -1,21 +1,29 @@
  
 
-var timeout;
+// var timeout;
 
-function myFunction() {
+// function myFunction() {
+//     timeout = setTimeout(showPage, 1200);
+// }
 
-    timeout = setTimeout(showPage, 8000);
-}
+// function showPage() {
+//   document.getElementById("loader").style.display = "none";
+//   document.getElementById("container").style.display = "block";
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
+//   // document.body.style.background = "white"
+//   //do this in jquery soon
+// }
 
-  document.getElementById("container").style.display = "initial";
-  document.body.style.background = "white"
+// function pageFunction() {
+//     timeout = setTimeout(showPage2, 500);
+// }
 
-  //do this in jquery soon
-}
-
+// function showPage2() {
+//   document.getElementById("loader").style.display = "none";
+//   document.getElementById("container").style.display = "block";
+//   // document.body.style.background = "white"
+//   //do this in jquery soon
+// }
 
 
 
@@ -23,30 +31,38 @@ function showPage() {
 
 
  $(document).ready(function(){ 
-    //     var timeout;
-    //     timeout = setTimeout(showPage, 2000);
+        // var timeout;
+        // timeout = setTimeout(showPage, 2000);
 
         
-    //     jQuery(window).load(function() {
-    //         $( '#loader' ).fadeOut();
-    //         $('#container').fadeIn();
-    //     });
+        // jQuery(window).load(function() {
+        //     $('#loader').fadeOut();
+        //     $('#container').fadeIn();
+        // });
+
+        $(window).on("load", function() {
+            $('#loader').fadeOut('slow');
+            $('#container').fadeIn(8000);
+            $('#navigation').addClass('animated fadeIn delay-2s');
+        });
 
 
-    //     $('#nav-toggle').click(function(){
-		  //   $('#nav-toggle').toggleClass('is-active');
-		  //   $('.left-navigation').toggleClass('is-active');
-		  // });
+        $('#nav-toggle').click(function(){
+		    $('#nav-toggle').toggleClass('is-active');
+		    $('.left-navigation').toggleClass('is-active');
+		  });
 
         // $("#sidebar").stick_in_parent();
+        // console.log("hello");
 
-        $('#intro').flowtype({
-             minimum   : 50,
-             maximum   : 120,
-             minFont   : 12,
-             maxFont   : 40,
-             fontRatio : 30
-        });
+        // $('#intro-text').flowtype({
+
+        //      minimum   : 505,
+        //      maximum   : 1200,
+        //      minFont   : 12,
+        //      maxFont   : 40,
+        //      fontRatio : 30
+        // });
 
 });
 
