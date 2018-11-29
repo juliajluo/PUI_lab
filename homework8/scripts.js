@@ -29,7 +29,6 @@
 
 
 
-
  $(document).ready(function(){ 
         // var timeout;
         // timeout = setTimeout(showPage, 2000);
@@ -39,6 +38,7 @@
         //     $('#loader').fadeOut();
         //     $('#container').fadeIn();
         // });
+
 
         $(window).on("load", function() {
             $('#loader').fadeOut('slow');
@@ -63,6 +63,8 @@
         //      maxFont   : 40,
         //      fontRatio : 30
         // });
+
+
 
 });
 

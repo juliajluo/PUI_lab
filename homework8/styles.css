@@ -568,3 +568,20 @@ i.fa.fa-bars.toggle {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+#scroll {
+	font-size: 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #B9BEC3;
+	padding-top: 20px;
+	/*display: none;*/
+}
+
+#scroll a {
+	/*font-size: em;*/
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #B9BEC3;
+}
