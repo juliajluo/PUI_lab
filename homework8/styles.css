@@ -376,6 +376,8 @@ i.fa.fa-bars.toggle {
 	margin-top: 2em;
 	width: 93%;
 	margin:auto;
+	padding-top: 100px;
+
 }
 
 .is-one-third {
@@ -526,7 +528,8 @@ i.fa.fa-bars.toggle {
 	line-height: 2.3em;
 	font-size: 0.95rem;
 	letter-spacing: 0.02rem;
-}
+/*	padding-top: 100px;
+*/}
 
 
 /*****LOADER******/
