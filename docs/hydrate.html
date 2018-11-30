@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Julia Luo Portfolio</title>
+    <meta charset="UTF-8">
+     <!-- styles -->
+     <link rel="stylesheet" type="text/css" href="styles.css">
+
+     <!-- fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/rsg6iht.css"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css"/>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- javascript -->
+    <script src="scripts.js" type="text/javascript"></script>
+    <script src="flowtype.js" type="text/javascript"></script>
+
+
+    <link rel="shortcut icon" href="favicon.png"/>
+
+</head>
+
+<body>
+  <div id = "loader"><div class = "spinner"></div></div>
+
+  <div id = "container">
+      <div id = "navigation">
+          <div class = "inner-navigation">
+            <a href = "index.html"><b>julia luo</b> product designer</a>
+            <div id="nav-toggle">
+              <a><i class="fa fa-bars toggle" aria-hidden="true"></i></a>
+            </div>
+            <div class = "left-navigation">
+              <a class = "nav-item" href = "index.html#work">work</a>
+              <!-- <a class = "nav-item" href = "play.html">play</a> -->
+              <a class = "nav-item" href = "about.html">about</a>
+              <a class = "nav-item" href = "resume.pdf">resume</a>
+            </div>
+          </div>
+        </div> 
+
+
+
+        <div class = "columns">
+                <div class = "column is-three-fourths center-col">
+                  <img class = "is-full" src = "images/hydrate/banner.png">
+                  <div class = "column is-three-fourths center-col">
+                      <p><br />
+                      <h1 class = "semibold">Hydrate Alarm App</h1>
+                      <h4>Venmo Design Challenge</h4>
+
+                      <p>While interviewing for the Product Design Internship at Venmo during fall 2017, I was tasked with a design challenge. I was given three options and was challenged to chose one to explore and develop a solution for. After completing the challenge, I was invited onsite to speak with designers and developers at Venmo and discuss my solution. A bit of time after, I decided to refine the project in order to practice my UI work as well as begin learning how to use Framer. </p>
+
+                      <h5>The Problem</h5>
+                      <p><i>Bob ​is ​frequently ​late ​to ​class, ​work, ​and ​appointments ​in ​the ​morning ​because ​he ​missed ​his ​alarms. ​He uses ​the ​default ​alarm ​app ​on ​his ​phone, ​but ​he ​often ​sleeps ​through ​the ​alarm ​or ​snoozes ​too ​many times ​because ​the ​snooze ​button ​is ​too ​easy ​to ​find. ​Bob ​wants ​to ​be ​more ​punctual, ​so ​design ​a ​solution for ​him ​that ​addresses ​his ​alarm ​problems. ​The ​only ​constraint ​is ​that ​the ​solution ​has ​to ​be ​software ​that works ​on ​a ​phone.</i></p>
+
+                      <h5>Background</h5>
+
+                      <p>For this challenge, I selected the problem because of its relevance in my life as well as those around me at Carnegie Mellon. I see this problem to be particularly interesting because I am looking to make the user do something they might not want to do: forcing them out of their bed in order to start the day. However in the end, making the user wake up and get out of bed is supposed to benefit them in the long term. I also believe there is large opportunity area here to make the wake up experience more pleasant and useful to the rest of the user’s day.<br /><br /></p>
+
+
+                      <h3 class = "semibold">Phase 1: Research</h3>
+
+
+                  <p>To start, I did some rudimentary research into other alarm apps and what wakes the
+                    people up in general. Below are some of the apps that I looked into and their main
+                    function for waking people up. <br /><br />
+
+
+                    <img class = "is-full" src = "images/hydrate/competitive analysis.png">
+          
+                    <br /><br />
+                    While looking at other competitors gave me some ideas I wanted to in general
+                    understand how different people wake up. I personally wake up in different ways each
+                    morning, sometimes I just need sunlight, other days its some funny post I read on my
+                    phone while groggy in bed. I asked around to some friends and browsed Quora and
+                    Reddit to get a basic overview. Here were some of the methods people used. 
+                    <ul>
+                      <li>Having friend call them/Someone else knock on their door</li>
+                      <li>Leaving blinds open at night/Turning on bedside light</li>
+                      <li>Using multiple alarms</li>
+                      <li>Putting alarm across the room</li>
+                      <li>Drinking a glass of cold water</li>
+                      <li>Stretching</li>
+                    </ul>
+                  </p>
+
+                      <h5>Key Insights</h5>
+                      <p> What I heard from these internet forums and from my friends was that action or
+                      urgency is what ultimately wakes them up mentally and then helps get them started on
+                      their day. This also aligns with the methods of the competitors. However, looking more closely I see that the competitors focused mainly on the aspect of waking up. There
+                      were some interesting interactions in the list of methods people use. For example,
+                      someone else knocking on their door is a social interaction while drinking a glass of
+                      cold water is related to their health.<br /><br /></p>
+
+                      <h3 class = "semibold">Phase 2: Ideation and Development</h3>
+
+                      <p>
+                  From my basic research and exploration into the topic, I decided to brainstorm some
+                  ideas. I saw from competitors that many of them involved a lot of action on the users
+                  part or elicited a feeling of urgency to get people up. While it seems to be effective in
+                  getting people up, I am unsure if it left a good feeling in the user. I wanted to create an
+                  idea that got a user up with as little casualties as possible. Since waking up entails
+                  approaching a brand new day, I want the user to feel good when they wake up. Here
+                  are some of the original ideas I brainstormed
+
+
+                  <br /><br /><strong>Sing-along alarm</strong>: The alarm is a song chosen by the user and in order to turn the alarm off, the user needs to sing along for 10 seconds.
+                  <br /><strong>To Do List Sync</strong>: The alarm would be synced with the user’s to do list, and would require the user to list out a to do in order to turn the alarm off
+                  <br /><strong>Wake Up Game</strong>: The user can play a mini game after their alarm has gone off. This game only opens up after the alarm goes off and aims to engage the user enough to
+                  awaken them
+                  <br /><strong class = "pink">Water Bottle Sensor</strong>: A sensor is placed on the bottom of a water bottle and the user
+                  must drink a specific amount of water to turn the alarm off.<br />
+
+                  <br />Out of these ideas, I ended up choosing the water bottle sync idea because it combined
+                  user action with a healthy and useful behavior. This would not only help wake up a user
+                  in the morning, but it would start their day off more pleasantly.
+                  <br /><br />
+                            </p>
+
+                  </div>
+
+                  <img class = "is-full" src = "images/hydrate/concepting.png">
+
+                  <img class = "is-full" src = "images/hydrate/flow.png">
+
+                  <img class = "is-full" src = "images/hydrate/wireframing.png">
+                  
+                  <div class = "column is-three-fourths center-col">
+
+                    <h3 class = "semibold ">High Fi Prototype</h3>
+                    <p> For my prototype, I made screens with Sketch and micro-interactions on Framer. You can get an overview of the app through <a href = "https://xd.adobe.com/view/2dcdf680-a163-46c6-6cd8-e4604c9de009-5bfc/">this</a> Adobe XD link. 
+
+                    </p>
+
+                    <img class = "is-one-third shrink" src = "images/hydrate/home.png">
+                    <img class = "is-one-third shrink" src = "images/hydrate/alarm ringing.png">
+                    <img class = "is-one-third shrink" src = "images/hydrate/alarm finished.png">
+
+                    <p>The set up process would be a simple integration with bluetooth. </p>
+
+                    <img class = "is-one-third shrink" src = "images/hydrate/no data.png">
+                    <img class = "is-one-third shrink" src = "images/hydrate/set up bottle 1.png">
+                    <img class = "is-one-third shrink" src = "images/hydrate/set up bottle 2.png">
+
+                    <p>Here is an animation example made with framer. </p>
+                    <iframe src="https://player.vimeo.com/video/290214528" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/290214528">Hydrate App Preview</a> from <a href="https://vimeo.com/user89618825">Julia Luo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    <h3 class = "semibold">Final Thoughts</h3>
+
+                     <p>I gravitated towards this problem because of its relevance in my life and from the moment I decided to work on it, the wheels in my head were turning. I realize that a large part of the success of this submission was because of a few factors:
+                    <br /><br />1. I identified multiple problems: People are bad at waking up in the morning. Why are people bad at waking up in the morning? It's unpleasant, they feel tired, they have bad associations with the feeling of waking up. I knew that in order to get people to be better, that making the experience smoother and more pleasant would capture the brighter side of waking up. 
+                    <br /><br />2. I let myself dive into the problem fully: I wasn't given a set time to turn in the challenge, but I told myself I would wait a week before starting due to finals. However during that week I always had the problem on the back of my mind. In the morning when I woke up - I would think about the problem. When talking to friends or even meeting new people, I would ask them what helped them wake up in the morning. To me, problem solving and design is not an isolated work session, it is a full integration into your life.<br />
+
+                     </p>
+
+                  </div>
+
+                </div>
+                
+            </div>
+
+    </div>
+
+
+<div id = "footer">
+    <div class = "footer-text">
+      <a href = "https://www.instagram.com/julialuolia/">Instagram </a> |  <a href = "https://www.linkedin.com/in/julia-luo-24b5a1105/">LinkedIn</a> | <a href = "https://github.com/juliajluo">Github</a>
+      <br /><br />&copy; Designed and Developed by Julia Luo 2017 
+    </div>
+  </div>
+</body>
