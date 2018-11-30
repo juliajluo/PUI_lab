@@ -1,31 +1,3 @@
- 
-
-// var timeout;
-
-// function myFunction() {
-//     timeout = setTimeout(showPage, 1200);
-// }
-
-// function showPage() {
-//   document.getElementById("loader").style.display = "none";
-//   document.getElementById("container").style.display = "block";
-
-//   // document.body.style.background = "white"
-//   //do this in jquery soon
-// }
-
-// function pageFunction() {
-//     timeout = setTimeout(showPage2, 500);
-// }
-
-// function showPage2() {
-//   document.getElementById("loader").style.display = "none";
-//   document.getElementById("container").style.display = "block";
-//   // document.body.style.background = "white"
-//   //do this in jquery soon
-// }
-
-
 
 
 
